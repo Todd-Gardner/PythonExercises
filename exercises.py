@@ -91,11 +91,11 @@ userInput = int(input('Please enter any number OTHER than ' + str(count) + '\n')
 while userInput != count:
     userInput = int(input('Please enter any number OTHER than ' + str(count + 1) + '\n'))
     count += 1
-raise ValueError('I asked you NOT to enter the number', count,'...Bye!\a')
-#print('I asked you NOT to enter the number', count,'...Bye!\a')  #else: ??
+print('I asked you NOT to enter the number', count,'...Bye!\a')  #else: ??
+#raise ValueError('I asked you NOT to enter the number', count,'...Bye!\a')
 exit()
 
-""" With Boolean and break:
+"""With Boolean and break:
 count = 0
 while True:
     userInput = int(input('Please enter any number OTHER than ' + str(count) + '\n'))
