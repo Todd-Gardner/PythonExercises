@@ -91,7 +91,7 @@ userInput = int(input('Please enter any number OTHER than ' + str(count) + '\n')
 while userInput != count:
     userInput = int(input('Please enter any number OTHER than ' + str(count + 1) + '\n'))
     count += 1
-print('I asked you NOT to enter the number', count,'...Bye!\a')  #else: ??
+print('I asked you NOT to enter the number', count,'...Bye!\a')  #else:
 #raise ValueError('I asked you NOT to enter the number', count,'...Bye!\a')
 exit()
 
@@ -105,3 +105,14 @@ while True:
 print('I asked you NOT to enter number', count,'...Bye!\a')  #else: ??
 exit()
 """
+
+
+### Pancake Glutton ###
+
+print("\n----- Pancake Glutton -----\n")
+ #Write a program that asks the user to enter the number of pancakes eaten for breakfast by 10 different people (Person 1, Person 2, ..., Person 10)
+ #Once the data has been entered the program must analyze the data and output which person ate the most pancakes for breakfast.
+ 
+for i in range(10):
+    user[i] = input("Please enter you name: \n")
+    
